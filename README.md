@@ -2,6 +2,16 @@
 
 This repository contains Terraform configurations to set up infrastructure on AWS. Below are the steps followed to create the infrastructure:
 
+# Prerequisites
+1. Terraform installed locally
+2. AWS account with appropriate permissions
+
+# Technologies
+   - Amazon Web Services
+   - Infrastructure as Code
+   - Version Control System
+   - Virtualization     
+
 ## Steps to be followed
 
 1. **Create S3 Bucket for Terraform State**:
@@ -47,7 +57,4 @@ This repository contains Terraform configurations to set up infrastructure on AW
     - Create a hosted zone in Route 53.
     - Inside the hosted zone, create a CNAME type record that will resolve the DNS name of the load balancer to the DNS name of the record.
 
-# Setup
-**Prerequisites**
-1. Terraform installed locally
-2. AWS account with appropriate permissions
+
